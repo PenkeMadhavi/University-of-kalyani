@@ -1,0 +1,60 @@
+.header-row{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(5, 5, 44, 0.641);
+}
+.header-title{
+    color: red;
+}
+
+ul > li{
+ display: inline;  
+ margin-left: 20px; 
+ margin-top: 10px;
+}
+
+ul > li:hover{
+    color: white;
+}
+
+ul{
+    margin-top: 30px;
+}
+
+.bg-image{
+    position: relative;
+    background-image: url("1st.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+}
+
+.card{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 32%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.5;
+    
+    height: 500px;
+    width: 450px;
+}
+
+.card > hr{
+    border: 3.5px solid red;
+    
+}
+
+.card-heading{
+    color: white;
+}
+.card > p{
+    padding: 3%;
+    margin-left: 38%;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    width: 25%;
+}
